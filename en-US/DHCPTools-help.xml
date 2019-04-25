@@ -155,8 +155,8 @@
     </command:examples>
     <command:relatedLinks>
       <maml:navigationLink>
-        <maml:linkText>https://artfulbodger.github.io/DHCPTools/Set-DhcpScopeDNSServers/</maml:linkText>
-        <maml:uri>https://artfulbodger.github.io/DHCPTools/Set-DhcpScopeDNSServers/</maml:uri>
+        <maml:linkText>Online Version</maml:linkText>
+        <maml:uri>https://artfulbodger.github.io/DHCPTools/Set-DhcpScopeDNSServers</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
