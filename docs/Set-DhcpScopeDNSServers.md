@@ -120,5 +120,5 @@ Remote Server Administration Tools (RSAT) for Windows operating systems is requi
 
 ## RELATED LINKS
 
-[https://artfulbodger.github.io/DHCPTools/Set-DhcpScopeDNSServers/](https://artfulbodger.github.io/DHCPTools/Set-DhcpScopeDNSServers/)
+[Online Version](https://artfulbodger.github.io/DHCPTools/Set-DhcpScopeDNSServers)
 

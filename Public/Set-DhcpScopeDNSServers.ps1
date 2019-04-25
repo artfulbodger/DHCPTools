@@ -26,7 +26,7 @@ function Set-DhcpScopeDNSServers
       Once installed enable the DHCP Server Tools which adds the DHCP Management Console, the DHCP Server cmdlet module for Windows PowerShell, and the Netsh command line tool.
 
     .LINK
-	  https://artfulbodger.github.io/DHCPTools/Set-DhcpScopeDNSServers/
+	  https://artfulbodger.github.io/DHCPTools/Set-DhcpScopeDNSServers
 
   #>
       [CmdletBinding(SupportsShouldProcess, ConfirmImpact='Medium')]
@@ -45,6 +45,6 @@ function Set-DhcpScopeDNSServers
         Write-Host "DNS servers for DHCP Scope $scopeid have been updated to $dnsserver" -ForegroundColor Green
       } Catch {
         Write-Host "DHCP Scope $scopeid does not exist on server $dhcpserver" -ForegroundColor Red
-      }  
+      }
     }
 }
