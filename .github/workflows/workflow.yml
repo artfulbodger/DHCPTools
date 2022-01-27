@@ -13,5 +13,9 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
+      - name: Instal dependancies
+        shell: pwsh
+        run: |
+          Install-Module -Name DHCPServer -Force
       - name: Run PSScriptAnalyzer
         uses: microsoft/psscriptanalyzer-action@v1.0
