@@ -1,2 +1,3 @@
+---
 - name: Run PSScriptAnalyzer
   uses: microsoft/psscriptanalyzer-action@v1.0
